@@ -1,0 +1,3 @@
+header: logo, search, button
+logo: <i class="fa-solid fa-gamepad-modern"></i>
+
