@@ -1,0 +1,30 @@
+.menu__esquerdo{
+    max-width: 180px;
+    height: calc(100vh - 10rem);
+    border-right: 1px solid #eaf2fd;    
+    background-color: var(--bg-input);
+    display: block;
+    text-align: center;
+}
+
+.menu__esquerdo,
+.menu__esquerdo h2 {
+    border-radius: 15px 0 15px 0;
+}
+
+.menu__esquerdo h2{
+    font-size: 2rem;
+    padding: 2rem;
+    color: var(--color-white);
+    background-color: var(--color-blue); 
+}
+
+.menu__lista {
+    margin-top: 3rem;
+}
+
+.menu__lista li{
+    font-size: 1.6rem;
+    padding: 2rem;
+    border-bottom:1px solid #cecece;
+}

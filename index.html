@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f5a1272db0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/Cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="./assets/css/Cabecalho/logo.css">
-    <link rel="stylesheet" href="./assets/css/Cabecalho/buscar.css">
-    <link rel="stylesheet" href="./assets/css/Cabecalho/login.css">
 
-    <title>AluraGeek</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f5a1272db0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/Cabecalho/cabecalho.css">
+  <link rel="stylesheet" href="./assets/css/Cabecalho/logo.css">
+  <link rel="stylesheet" href="./assets/css/Cabecalho/buscar.css">
+  <link rel="stylesheet" href="./assets/css/Cabecalho/login.css">
+  <link rel="stylesheet" href="./assets/css/Menu-esquerdo/menu-esquerdo.css">
+
+  <title>AluraGeek</title>
 </head>
+
 <body>
-   <header class="container cabecalho">
+
+  <!-- Header -->
+  <header class="container cabecalho">
     <div class="header__left">
-        <div class="logo"><a href=""><img src="./assets/image/logo/Logologo.svg" alt="Logo da loja"></a></div>
-        <div class="buscar">
-            <input class="input__buscar" type="text" placeholder="O que deseja encontrar?">
-            <a class="btn__buscar" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-        </div>
+      <div class="logo"><a href=""><img src="./assets/image/logo/Logologo.svg" alt="Logo da loja"></a></div>
+      <div class="buscar">
+        <input class="input__buscar" type="text" placeholder="O que deseja encontrar?">
+        <a class="btn__buscar" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
     </div>
     <a href="" class="login">login</a>
-   </header>
-    
+  </header>
+
+  <main class="container">
+
+    <!-- Aside -->
+    <aside class="menu__esquerdo">
+      <h2>Categoria</h2>
+      <ul class="menu__lista">
+        <li class="menu__item"><a href="">Star Wars</a></li>
+        <li class="menu__item"><a href="">Consoles</a></li>
+        <li class="menu__item"><a href="">Diversos</a></li>
+      </ul>
+    </aside>
+
+
+  </main>
+
 </body>
+
 </html>
