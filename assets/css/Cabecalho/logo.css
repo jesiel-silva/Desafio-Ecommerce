@@ -1,11 +1,26 @@
-.logo{
+.logo__conteudo{
     width: 17rem;
+}
+
+.logo{
     display: flex;
     align-items: center;
 }
+.logo__nome,
+.logo i{
+    font-size: 3rem;
+    color: var(--color-white);    
+    font-weight: 600;
+}
 
-.logo img{
-    width: 100%;
+.logo i{
+    font-size: 4rem;
+    margin-right: 5px;
+}
+
+.logo__nome span{
+    color: var(--color-black);
+    text-shadow: 0px 1px 1px #fff;
 }
 
 @media (max-width: 768px) {

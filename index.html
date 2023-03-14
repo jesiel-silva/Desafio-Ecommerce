@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/f5a1272db0.js" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/base.css">
   <link rel="stylesheet" href="./assets/css/Cabecalho/cabecalho.css">
@@ -25,10 +25,17 @@
   <!-- Header -->
   <header class="container cabecalho">
     <div class="header__left">
-      <div class="logo"><a href=""><img src="./assets/image/logo/Logologo.svg" alt="Logo da loja"></a></div>
+
+      <div class="logo__conteudo">
+        <div class="logo">
+          <i class='bx bxs-joystick'></i>
+          <div class="logo__nome">Star<span>Geek</span></div>
+        </div>        
+      </div>
+
       <div class="buscar">
         <input class="input__buscar" type="text" placeholder="O que deseja encontrar?">
-        <a class="btn__buscar" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a class="btn__buscar" href=""><i class='bx bx-search'></i></a>
       </div>
     </div>
     <a href="" class="login">login</a>
@@ -38,11 +45,14 @@
 
     <!-- Aside -->
     <aside class="menu__esquerdo">
-      <h2>Categoria</h2>
+      <h2>Categorias</h2>
       <ul class="menu__lista">
-        <li class="menu__item"><a href="">Star Wars</a></li>
-        <li class="menu__item"><a href="">Consoles</a></li>
-        <li class="menu__item"><a href="">Diversos</a></li>
+        <li class="menu__item active">
+          <a href="">Star Wars</a>
+        </li>
+        <li class="menu__item active"><a href="">Consoles</a></li>
+        <li class="menu__item active"><a href="">Diversos</a></li>
+        <li class="menu__item active"><a href="">Fale conosco</a></li>
       </ul>
     </aside>
 

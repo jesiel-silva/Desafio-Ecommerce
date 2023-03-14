@@ -1,8 +1,10 @@
 :root {
     --color-white: #e0e0e0;
+    --color-black:   #464646;
     --color-blue: #458be7;
+    --color-blue2: #0c63cd;
     --color-placeholder: #A2A2A2;
-    --bg-input: #f0f1f3;
+    --white-secundary: #f0f1f3;
 }
 
 .container {
@@ -13,7 +15,7 @@
 html{
     font-size: 62.5%;
     font-family: 'Raleway', sans-serif;
-    background-color: var(--color-white);
+    background-color: var(--color-blue2);
 }
 
 @media (max-width: 768px) {
