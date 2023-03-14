@@ -8,4 +8,23 @@
 .header__left {
     display: flex;
     align-items: center;
+    width: 60rem;
+}
+
+@media (max-width: 768px) {
+    .header__left{
+        width: 40rem;
+    }
+}
+
+@media (max-width: 638px){
+    .header__left{
+        width: 45rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .header__left{
+        width: 100%;
+    }
 }

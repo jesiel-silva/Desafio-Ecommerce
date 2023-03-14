@@ -1,5 +1,16 @@
 .logo{
-    display: inline-flex;
+    width: 17rem;
+    display: flex;
     align-items: center;
 }
 
+.logo img{
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .logo img{
+        width: 100px;
+    }
+    
+}

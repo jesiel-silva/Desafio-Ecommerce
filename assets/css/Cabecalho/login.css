@@ -6,3 +6,35 @@
     border: 1px solid var(--color-blue);
     color: var(--color-blue);
 }
+
+@media (max-width: 768px) {
+    .login{
+        width: 14rem;
+    }
+}
+
+@media (max-width: 638px){
+    .login{
+
+    }
+}
+
+@media (max-width: 412px) {
+    .login {
+        position: absolute;
+        right: 10rem;
+        width: 8rem;
+        height: 1rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .login {
+        position: absolute;
+        right: 10rem;
+        width: 8rem;
+        height: 1rem;
+        font-size: 1.3rem;
+    }
+}
