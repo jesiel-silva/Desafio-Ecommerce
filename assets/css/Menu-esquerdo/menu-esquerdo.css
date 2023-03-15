@@ -8,7 +8,7 @@
 .menu__esquerdo{
     height: 40rem;      
     background-color: var(--color-blue);
-    border-radius: 5px;
+    border-radius: 10px;
     display: block;
     align-items: center;    
     position: sticky;
@@ -34,7 +34,7 @@
     padding: 2rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    transition: all 450ms ease-in-out;
+    transition: all 0.5s ease-in;
 }
 
 .menu__lista li.active:hover{
