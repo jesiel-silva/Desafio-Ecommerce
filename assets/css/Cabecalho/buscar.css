@@ -20,7 +20,7 @@
 
 ::placeholder{
     font-size: 1.4rem;
-    color: var(--color-placeholder);
+    color: var(--color-gray);
 }
 
 .btn__buscar{

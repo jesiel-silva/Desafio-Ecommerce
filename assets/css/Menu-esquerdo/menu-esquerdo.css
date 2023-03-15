@@ -1,12 +1,18 @@
-.menu__esquerdo{
+.sticky{
+    height: 159vh;
     max-width: 180px;
-    height: calc(100vh - 11rem);   
+    position: relative;
+    padding-right: 10px;
+}
+
+.menu__esquerdo{
+    height: 40rem;      
     background-color: var(--color-blue);
-    border: 2px solid var(--color-blue2);
     border-radius: 5px;
     display: block;
-    align-items: center;
-   
+    align-items: center;    
+    position: sticky;
+    top: 8rem;
 }
 
 
@@ -33,9 +39,14 @@
 
 .menu__lista li.active:hover{
     background-color: var(--color-blue2);
+    
 }
 
 .menu__lista a{
     color: var(--white-secundary);
     display: block;
+}
+
+.menu__lista a:hover{
+    color: var(--color-gray);
 }
