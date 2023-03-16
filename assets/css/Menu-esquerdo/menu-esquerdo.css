@@ -1,6 +1,7 @@
 .sticky{
     height: 159vh;
     max-width: 180px;
+    min-width: 180px;
     position: relative;
     padding-right: 10px;
 }
@@ -18,14 +19,19 @@
 
 
 .menu__esquerdo h2{
-    font-size: 2rem;
-    padding: 5rem;
+    font-size: 2.5rem;
+    padding: 2rem;
     color: var(--white-secundary);
     border-radius: 5px;
 }
 
+.menu__esquerdo img{
+    width: 60px;
+    margin-left: 35%;
+}
+
 .menu__lista {
-    margin-top: 3rem;
+    margin-top: 0rem;
     padding-left: 5px; 
     text-align: center;
 }
@@ -38,16 +44,19 @@
     transition: all 0.5s ease-in;
 }
 
-.menu__lista li.active:hover{
-    background-color: var(--color-blue2);
-    
+.menu__lista a{
+    color: var(--white-secundary);    
 }
 
-.menu__lista a{
-    color: var(--white-secundary);
+.menu__lista li.active:hover{
+    background-color: var(--color-blue2);
+    color: var(--color-gray);
     display: block;
 }
 
+
 .menu__lista a:hover{
-    color: var(--color-gray);
+    color: var(--color-blue_claro);
+    font-weight: 500;
+    display: block;
 }

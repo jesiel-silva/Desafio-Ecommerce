@@ -1,0 +1,13 @@
+{
+    "pruduto": [
+        {
+            "nome": "Alura",
+            "imageUrl": "",
+            "price": "100.00",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars",
+            "description": "Voluptas voluptatum quibsusdam similique, class"
+        }
+    ]
+}
