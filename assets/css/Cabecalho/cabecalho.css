@@ -13,7 +13,7 @@
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .header__left{
         width: 40rem;
     }
@@ -29,4 +29,4 @@
     .header__left{
         width: 100%;
     }
-}
+} */

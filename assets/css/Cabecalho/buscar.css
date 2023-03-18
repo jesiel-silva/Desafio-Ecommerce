@@ -31,7 +31,7 @@
     color: var(--color-placeholder);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .input__buscar{
         width: 27rem;
         height: 2rem;
@@ -72,4 +72,4 @@
     .btn__buscar{
         right: 2rem;
     }
-}
+} */
