@@ -29,8 +29,8 @@ body{
 .button {
     color: var(--color-white); 
     font-size: 1.6rem;
-    border: 1px solid var(--color-blue_claro2);
-    background-color: var(--color-blue_claro);
+    border: 1px solid var(--color-white);
+    background-color: var(--color-blue_escuro);
     box-shadow: 3px 5px 5px #00000080;
     width: 13rem;
     text-align: center;
