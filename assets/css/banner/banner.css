@@ -11,8 +11,8 @@
 .banner__texto{
     width: 63%;
     margin-top: 15rem;
-    line-height: 6rem;
-    padding-left: 2rem;
+    line-height: 10rem;
+    padding-left: 2.5rem;
 }
 
 .banner__texto h2{
@@ -26,17 +26,7 @@
     color: var(--color-white);
 }
 
-.banner__texto a {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    border: 1px solid var(--color-blue);
-    border-radius: 5px;
-    padding: 15px 20px 15px 20px;
-    font-size: 1.6rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.banner__texto a:hover{
+.ver__consoles:hover{
     background-color: transparent;
     border: 1px solid var(--color-blue);
 }
