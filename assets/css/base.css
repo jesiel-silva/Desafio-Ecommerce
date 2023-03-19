@@ -27,14 +27,20 @@ body{
 }
 
 .button {
+    width: 13rem;
     color: var(--color-white); 
     font-size: 1.6rem;
     border: 1px solid var(--color-white);
     background-color: var(--color-blue_escuro);
     box-shadow: 3px 5px 5px #00000080;
-    width: 13rem;
     text-align: center;
     padding: 16px;
-    transition: all 0.3s ease-in-out;  
+    transition: all 0.2s ease-in;  
+}
+
+.button:hover{
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
 }
 

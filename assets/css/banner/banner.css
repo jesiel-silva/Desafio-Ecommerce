@@ -1,5 +1,5 @@
 .banner{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(59, 59, 59, 0.7)), url(/assets/image/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(59, 59, 59, 0.7)), url(/assets/image/banner/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -24,9 +24,4 @@
 .banner__texto p{
     font-size: 2.2rem;
     color: var(--color-white);
-}
-
-.ver__consoles:hover{
-    background-color: transparent;
-    border: 1px solid var(--color-blue);
 }

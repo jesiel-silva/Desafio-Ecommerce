@@ -39,6 +39,7 @@
 
 .menu__lista li{
     font-size: 1.6rem;
+    font-weight: 500;
     line-height: 40px;
     transition: all 0.5s ease-in;
 }
@@ -48,7 +49,7 @@
 }
 
 .menu__lista a:hover{
-    color: var(--color-blue_claro2);
+    color: var(--color-black);
     font-weight: 500;
     display: block;
 }
