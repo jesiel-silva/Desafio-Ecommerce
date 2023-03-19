@@ -1,21 +1,20 @@
 .fale__conosco {
     display: flex;
-    width: 100%;
-    border-radius: 10px;
     align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 36.8rem;
+    border-radius: 10px;
     margin: 5rem 0;
     background-color: var(--color-blue_escuro);
 }
 
 .fale__conosco-conteudo{
+    width: 100%;
+    height: 250px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 6rem;
-    width: 95%;
-    height: 24rem;
-    margin: auto;
+    column-gap: 50px;
+    padding: 15px;
 }
 
 .fale__conosco-conteudo .logo{
@@ -24,58 +23,44 @@
 
 .faleConosco__links{    
     width: 20%;
-    height: 100%;    
+    height: 100%;  
 }
 
 .faleConosco__links a{
     color: var(--white-secundary);
     font-size: 1.4rem;
     line-height: 4rem;
+    transition: all 0.3s;
 }
 
-.formFaleConosco{
-    width: 56rem;
+.faleConosco__links a:hover{
+    color: var(--color-gray);
+}
+
+.area__contato{
+    width: 560px;
+}
+
+.fieldset__contanto{
     height: 100%;
-    position: relative; 
-}
-
-.fieldset__conteudo{
-    width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
 .form__legenda {    
     font-size: 1.6rem;
+    margin-bottom: 10px;
     color: var(--white-secundary);
 }
 
-.input__conteudo{    
-    margin-top: 10px;
-    position: relative;
-    background-color: rgb(73, 73, 73);
-}
-
 .input__nome {
-    width: 93.5%;
     height: 4rem;
     border: none;
     font-size: 1.6rem;
-    padding:12px 15px 0;
     outline: none;
-    transition-duration: 0.5s;
 }
 
-.label-on{
-    display: none;
-}
-
-.label__nome{    
-    position: absolute;
-    font-size: 1.2rem;
-    left: 5px;
-    top: 5px;
-}
 
 .textArea__Mensagem{
     border: none;
