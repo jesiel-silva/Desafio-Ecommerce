@@ -1,0 +1,21 @@
+.btn {
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    background-color: var(--color-blue_escuro);
+    box-shadow: 3px 5px 5px #00000080;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+}
+
+@media(max-width:425px ),(max-width:375px) {
+    .btn {
+        font-size: 1.8rem;
+    }
+}

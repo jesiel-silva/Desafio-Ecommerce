@@ -1,7 +1,7 @@
 .desenvolvedor{
     width: 100%;
-    height: 8.8rem;
-    background-color: var(--color-blue_escuro);
+    height: 11rem;
+    background-color: var(--color-black2);
 }
 
 .footer__texto{
@@ -13,7 +13,7 @@
 }
 
 .footer__texto h2, p {
-    color: var(--color-blue_claro2);
+    color: var(--color-gray);
     font-size: 1.5rem;
     line-height: 2rem;
 }

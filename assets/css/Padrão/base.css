@@ -1,6 +1,7 @@
 :root {
-    --color-white: #e0e0e0;
+    --color-white: #fff;
     --color-black:   #464646;
+    --color-black2:   #1f1f1f;
     --color-blue: #458be7;
     --color-blue_claro: #298cc5;
     --color-blue_claro2: #93cff2;
@@ -11,9 +12,8 @@
 }
 
 .container {
-    width: 100%;
+    width: 96%;
     max-width: 1140px;
-    /* height: 100%; */
     margin: 0 auto;
     display: flex; 
 }
@@ -21,26 +21,14 @@
 html,
 body{
     font-size: 62.5%;
+    height: 100vh;
     font-family: 'Raleway', sans-serif;
     background-color: var(--color-blue2);
     scroll-behavior: smooth;
 }
 
-.button {
-    width: 13rem;
-    color: var(--color-white); 
-    font-size: 1.6rem;
-    border: 1px solid var(--color-white);
-    background-color: var(--color-blue_escuro);
-    box-shadow: 3px 5px 5px #00000080;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.2s ease-in;  
+@media (max-width: 868px) {
+    html{
+        font-size: 50%;
+    }
 }
-
-.button:hover{
-    border-radius: 1rem;
-    background-color: transparent;
-    border: 1px solid var(--color-white);
-}
-

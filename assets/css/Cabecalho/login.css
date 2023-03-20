@@ -1,0 +1,15 @@
+@media(max-width:768px) {
+    .login{
+        position: absolute;
+        top: 1rem;
+        right: 3rem;
+    }
+}
+
+@media(max-width:375px) {
+    .login{            
+         top: 2rem;
+
+        background-color: black;
+    }
+}
