@@ -1,0 +1,59 @@
+.main__login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__login {
+    display: flex;
+    justify-content: center;
+
+}
+
+.formulario {
+    width: 42rem;
+    height: 26.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.formulario fieldset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario fieldset input {
+    border-radius: 5px;
+    border: none;
+    height: 5rem;
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.formulario fieldset a {
+    color: var(--color-white);
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1.6rem;
+    background-color: var(--color-blue_escuro);
+    transition: all 0.3s;
+}
+
+.formulario fieldset a:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}

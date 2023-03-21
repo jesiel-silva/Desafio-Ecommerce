@@ -76,7 +76,7 @@
 }
 
 input[type=submit] {
-    background-color: var(--color-blue2);
+    background-color: var(--color-blue_escuro);
     border: none;
     border-radius: 5px;
     margin-top: 10px;

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../assets/css/Cabecalho/cabecalho.css">
   <link rel="stylesheet" href="../assets/css/Cabecalho/logo.css">
   <link rel="stylesheet" href="../assets/css/Cabecalho/buscar.css">
+  <link rel="stylesheet" href="../assets/css/Tela-login/login.css">
   <link rel="stylesheet" href="../assets/css/Fale-conosco/fale-conosco.css">
   <link rel="stylesheet" href="../assets/css/Footer/footer.css">
   <title>Login</title>
@@ -31,16 +32,26 @@
     </div>
   </header>
 
-  <main class="container">
-    
-    <section class="fale__conosco" id="faleConosco">
+  <main class="container main__login">
 
+    <section class="form__login">
+      <form class="formulario">
+        <h3>Iniciar Sessão</h3>
+        <fieldset>
+          <input type="email" placeholder="Digite seu email">
+          <input type="password" placeholder="Digite sua senha">
+          <a href="">Entrar</a>
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="fale__conosco" id="faleConosco">
       <div class="fale__conosco-conteudo">
         <div class="logo">
           <i class='bx bxs-joystick'></i>
           <div class="logo__nome">Star<span>Geek</span></div>
         </div>
-  
+
         <div class="faleConosco__links">
           <p class="link_texto"><a href="">Quem somos nós</a></p>
           <p class="link_texto"><a href="">Politica de privacidade</a></p>
@@ -49,7 +60,7 @@
           <p class="link_texto"><a href="">Quero ser franqueado</a></p>
           <p class="link_texto"><a href="">Anuncie aqui</a></p>
         </div>
-  
+
         <form class="area__contato" action="" method="post" autocomplete="off">
           <fieldset class="fieldset__contanto">
             <legend class="form__legenda">Fale conosco</legend>
