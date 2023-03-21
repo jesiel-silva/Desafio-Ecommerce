@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../assets/css/Padrão/reset.css">
+  <link rel="stylesheet" href="../assets/css/Padrão/base.css">
+  <link rel="stylesheet" href="../assets/css/Cabecalho/cabecalho.css">
+  <link rel="stylesheet" href="../assets/css/Cabecalho/logo.css">
+  <link rel="stylesheet" href="../assets/css/Cabecalho/buscar.css">
+  <link rel="stylesheet" href="../assets/css/Fale-conosco/fale-conosco.css">
+  <link rel="stylesheet" href="../assets/css/Footer/footer.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="container cabecalho" id="inicio">
+    <div class="header__left">
+      <div class="logo">
+        <i class='bx bxs-joystick'></i>
+        <div class="logo__nome">Star<span>Geek</span></div>
+      </div>
+      <div class="buscar">
+        <input class="input__buscar" type="text" placeholder="O que deseja encontrar?">
+        <a class="btn__buscar" href=""><i class='bx bx-search'></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="fale__conosco" id="faleConosco">
+
+      <div class="fale__conosco-conteudo">
+        <div class="logo">
+          <i class='bx bxs-joystick'></i>
+          <div class="logo__nome">Star<span>Geek</span></div>
+        </div>
+  
+        <div class="faleConosco__links">
+          <p class="link_texto"><a href="">Quem somos nós</a></p>
+          <p class="link_texto"><a href="">Politica de privacidade</a></p>
+          <p class="link_texto"><a href="">Programa fidelidade</a></p>
+          <p class="link_texto"><a href="">Nossas lojas</a></p>
+          <p class="link_texto"><a href="">Quero ser franqueado</a></p>
+          <p class="link_texto"><a href="">Anuncie aqui</a></p>
+        </div>
+  
+        <form class="area__contato" action="" method="post" autocomplete="off">
+          <fieldset class="fieldset__contanto">
+            <legend class="form__legenda">Fale conosco</legend>
+            <input type="text" name="nome" class="input__nome" placeholder="Nome" data-nome>
+            <textarea class="textArea__Mensagem" name="textArea__Mensagem" id="mensagem"
+              placeholder="Escreva sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem">
+          </fieldset>
+        </form>
+      </div>
+    </section><!-- Fale conosco -->
+  </main>
+
+  <footer class="desenvolvedor">
+    <div class="footer__texto container">
+      <h2>Desenvolvido por Jesiel Silva</h2>
+      <p>2023</p>
+    </div>
+  </footer><!-- Footer -->
+
+</body>
+
+</html>

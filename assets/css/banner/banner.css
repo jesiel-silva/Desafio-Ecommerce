@@ -31,8 +31,7 @@
     }
 }
 
-@media(max-width:425px ),(max-width:375px) {
-    
+@media(max-width:425px ),(max-width:375px) {    
 
     .banner__texto {
         text-align: center;
