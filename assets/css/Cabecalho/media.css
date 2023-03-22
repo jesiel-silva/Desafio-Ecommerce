@@ -1,0 +1,7 @@
+@media(max-width: 375px) {
+    .media {
+        height: 15%;
+        padding-top: 25px;
+        border-radius: 0 0 10px 10px;
+    }
+}

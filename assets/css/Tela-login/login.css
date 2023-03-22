@@ -1,5 +1,6 @@
 .main__login {
     display: flex;
+    height: calc(80vh - 3px);
     flex-direction: column;
 }
 
