@@ -1,9 +1,10 @@
 .sticky {
-    height: 210vh;
+    height: 310vh;
     max-width: 180px;
     min-width: 180px;
     position: relative;
     margin-right: 15px;
+    bottom: 0;
 }
 
 .menu__esquerdo {

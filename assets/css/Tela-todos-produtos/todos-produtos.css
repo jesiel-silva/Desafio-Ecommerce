@@ -1,0 +1,25 @@
+.todos__produtos {
+    flex-direction: column;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__produto {
+    margin-bottom: 1rem;
+}
+
+.botao__adicionarProduto a {
+    color: var(--color-white);
+    background-color: var(--color-blue_escuro);
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 16px;
+    transition: all 0.2s;
+}
+
+.botao__adicionarProduto a:hover {
+    background-color: var(--color-blue);
+}
