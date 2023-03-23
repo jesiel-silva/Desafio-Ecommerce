@@ -1,0 +1,87 @@
+.produto__media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+
+.produto__media-left {
+    display: flex;
+    align-self: stretch;
+}
+
+.main__adicionar--produto {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.formulario h3 {
+    font-size: 2.5rem;
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+.formulario fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 56rem;
+}
+
+.formulario fieldset input {
+    font-size: 1.6rem;
+    border-radius: 5px;
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+    border: none;
+    outline: none;
+}
+
+.descricao__produto {
+    border-radius: 5px;
+    height: 8rem;
+    outline: none;
+    padding-left: 10px;
+    resize: none;
+}
+
+.botao__adicionar--Produto {
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10px;
+    padding: 1.6rem;
+    background-color: var(--color-blue_escuro);
+    transition: all 0.3s;
+}
+
+.botao__adicionar--Produto:hover {
+    background-color: var(--color-blue);
+}
+
+@media(max-width: 375px) {
+    .produto__media-left {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .produto__media {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .formulario fieldset {
+        width: 98%;
+    }
+
+}
