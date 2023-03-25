@@ -7,21 +7,27 @@ const listaCard = () => {
 
 const adicionaProduto = (nome, imageUrl, price, section, id) => {
     return fetch(`http://localhost:3000/pruduto`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            nome: nome,
-            imageUrl: imageUrl,
-            price: price,
-            section: section,
-            id: id
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                nome: nome,
+                imageUrl: imageUrl,
+                price: price,
+                section: section,
+                id: id
+            })
         })
-    })
 
-    .then(resposta => {
-        return resposta.body
+        .then(resposta => {
+            return resposta.body
+        })
+}
+
+const removeProduto = () => {
+    return fetch(`http://localhost:3000/pruduto`, {
+        method: 'DELETE'
     })
 }
 
