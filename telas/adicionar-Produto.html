@@ -38,15 +38,15 @@
   <main class="container main__adicionar--produto">
 
     <section class="form__produto--conteudo">
-      <form class="formulario">
+      <form class="formulario" data-form_addProduto>
         <h3>Adicionar novo produto</h3>
         <fieldset>
-          <input type="text" placeholder="URL da imagem">
-          <input type="text" placeholder="Categoria">
-          <input type="text" placeholder="Nome do produto">
-          <input type="text" placeholder="Preço do produto">
-          <textarea class="descricao__produto" name="descricao__produto" id="descricao" placeholder="Descrição do produto"></textarea>
-          <a class="botao__adicionar--Produto" href="">Adicionar produto</a>
+          <input type="text" placeholder="URL da imagem" data-imagemURL>
+          <input type="text" placeholder="Seção" data-section>
+          <input type="text" placeholder="Nome do produto" data-nome>
+          <input type="text" placeholder="Preço do produto" data-preco>
+          <input type="text" placeholder="Id do produto" data-id>
+          <input type="submit" class="botao__adicionar--Produto" value="Adicionar produto" data-botao_addProduto></input>
         </fieldset>
       </form>
     </section>
@@ -87,6 +87,7 @@
     </div>
   </footer><!-- Footer -->
 
+  <script type="module" src="../controllers/adicionaProduto-controller.js"></script>
 </body>
 
 </html>

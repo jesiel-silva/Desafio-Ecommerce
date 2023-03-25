@@ -35,21 +35,20 @@
 
 .section__card {    
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    
-    /* width: 100%; */
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));  
+    gap: 1.3rem;
 }
 
-.card {    
+.card {  
     background-color: var(--color-white);
     border-radius: 10px;
     border: 1px solid var(--color-black);
     box-shadow: 5px 8px 5px #00000080;   
     display: flex;     
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
     padding: 1rem;
+    position: relative;
 }
 
 .card:hover {
@@ -59,7 +58,7 @@
 
 .card img {
     width: 15rem;
-    height: 17rem; 
+    height: 15rem; 
     margin-bottom: 2rem;
     transition-duration: 0.5s;
 }
@@ -81,4 +80,8 @@
     font-size: 1.8rem;
     padding-top: 1rem;
     color: var(--color-blue_escuro);
+}
+
+.id__produto {
+    display: none;
 }

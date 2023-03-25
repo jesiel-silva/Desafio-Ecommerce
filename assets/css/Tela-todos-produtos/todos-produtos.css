@@ -23,3 +23,14 @@
 .botao__adicionarProduto a:hover {
     background-color: var(--color-blue);
 }
+
+.edit-del{
+    position: absolute;
+    right: 1rem;
+}
+
+.edit, .del {
+    font-size: 1.8rem;
+    color: var(--color-blue_claro);
+    padding-left: 0.5rem;
+}

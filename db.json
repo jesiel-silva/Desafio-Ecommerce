@@ -1,13 +1,88 @@
 {
-    "pruduto": [
-        {
-            "nome": "Alura",
-            "imageUrl": "",
-            "price": "100.00",
-            "id": 1,
-            "alt": "Product",
-            "section": "Star Wars",
-            "description": "Voluptas voluptatum quibsusdam similique, class"
-        }
-    ]
+  "pruduto": [
+    {
+      "nome": "Boba Fett",
+      "imageUrl": "https://vaultedcollectibles.com/wp-content/uploads/2021/09/1_181550.jpeg",
+      "price": "R$100.00",
+      "id": "1",
+      "section": "Star Wars"
+    },
+    {
+      "nome": "Boba Fett",
+      "imageUrl": "https://imgs.extra.com.br/1515163014/4xg.jpg?imwidth=500",
+      "price": "R$100.00",
+      "id": "2",
+      "section": "Star Wars"
+    },
+    {
+      "nome": "Boba Fett",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtYyBg_YDxh7LFgIe9pnI1kujXwxTrFKI_SQ &usqp=CAU",
+      "price": "R$100.00",
+      "id": "3",
+      "section": "Star Wars"
+    },
+    {
+      "nome": "Boba Fett",
+      "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61KP-ulmD2L.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "price": "R$100.00",
+      "id": "4",
+      "section": "Star Wars"
+    },
+    {
+      "nome": "Xbox 360 Slim",
+      "imageUrl": "https://cdn.awsli.com.br/1000x1000/138/138431/produto/180761676/50a7e4f215.jpg",
+      "price": "R$1.648.00",
+      "id": "5",
+      "section": "Console"
+    },
+    {
+      "nome": "PlayStation 4",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_661783-MLB25566609029_052017-O.jpg",
+      "price": "R$1.648.00",
+      "id": "6",
+      "section": "Console"
+    },
+    {
+      "nome": "Xbox One",
+      "imageUrl": "https://cdn.awsli.com.br/1000x1000/241/241991/produto/56463926/3e98630957.jpg",
+      "price": "R$1.648.00",
+      "id": "7",
+      "section": "Console"
+    },
+    {
+      "nome": "PlayStation 5",
+      "imageUrl": "https://i.etsystatic.com/27825707/r/il/7fcbd5/2924429725/il_fullxfull.2924429725_ljhh.jpg",
+      "price": "R$1.648.00",
+      "id": "8",
+      "section": "Console"
+    },
+    {
+      "nome": "DualShock 4 Star Wars",
+      "imageUrl": "https://www.dashcontroles.com.br/wp-content/uploads/2020/01/CONTROLES-SITE-Recuperado-Recuperado-Recuperado.png",
+      "price": "R$580.00",
+      "id": "9",
+      "section": "Diversos"
+    },
+    {
+      "nome": "Controle Razer Star Wars",
+      "imageUrl": "http://digitaldrops.com.br/wp-content/uploads/2022/05/20220510controle-stormtrooper-razer-wireless-controller-for-xbox-01.jpg",
+      "price": "R$935.00",
+      "id": "10",
+      "section": "Diversos"
+    },
+    {
+      "nome": "Controle PS5 Original Sony",
+      "imageUrl": "https://images-americanas.b2w.io/produtos/4630936233/imagens/controle-ps5-original-sony-dualsense-pro-alta-performance-star-wars/4630936321_1_large.jpg",
+      "price": "R$799.00",
+      "id": "11",
+      "section": "Diversos"
+    },
+    {
+      "nome": "Jogos PS4 Star Wars",
+      "imageUrl": "https://static.netshoes.com.br/produtos/star-wars-racer-&-commando-pack-(racer-&-republic-commando)-ps4/60/PZG-0016-460/PZG-0016-460_zoom1.jpg?ts=1642429301&ims=544x",
+      "price": "R$180.00",
+      "id": "12",
+      "section": "Diversos"
+    }
+  ]
 }
