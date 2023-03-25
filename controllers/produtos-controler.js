@@ -12,7 +12,7 @@ const criaCard = (nome, imageUrl, price, id, alt) => {
     </div>
     <h1 class="card__nome">${nome}</h1>
     <p class="preco">${price}</p>
-    <p class="id__produto hide">${id}</p>
+    /* <p class="id__produto hide">${id}</p> */
     <a class="ver__produto" href="../produto.html?id=${id}">Ver Produto</a>`
     
     novaDiv.innerHTML = conteudoCard; 
@@ -25,6 +25,6 @@ const todosProdutos = document.querySelector('[data-todos_produtos]');
 produtoService.listaCard()
 .then(data => {
     data.forEach(elemento => {
-        todosProdutos.appendChild(criaCard(elemento.nome, elemento.imageUrl, elemento.price, elemento.id, elemento.alt));
+        todosProdutos.appendChild(criaCard(elemento.nome, elemento.imageUrl, elemento.price, elemento.section, elemento.id));
     })
 })

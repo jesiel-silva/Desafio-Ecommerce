@@ -10,7 +10,7 @@ form_addProduto.addEventListener('submit', (evento) => {
     const imageUrl = evento.target.querySelector('[data-imagemURL]').value;
     const price = evento.target.querySelector('[data-preco]').value;
     const section = evento.target.querySelector('[data-section]').value;
-    const id = evento.target.querySelector('[data-id]').value;
+    /* const id = evento.target.querySelector('[data-id]').value; */
 
-    produtoService.adicionaProduto(nome, imageUrl, price, id, section);    
+    produtoService.adicionaProduto(nome, imageUrl, price, section);    
 })

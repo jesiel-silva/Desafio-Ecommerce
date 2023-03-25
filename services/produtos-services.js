@@ -5,7 +5,7 @@ const listaCard = () => {
         })
 }
 
-const adicionaProduto = (nome, imageUrl, price, id, section) => {
+const adicionaProduto = (nome, imageUrl, price, section, id) => {
     return fetch(`http://localhost:3000/pruduto`, {
         method: 'POST',
         headers: {
@@ -15,8 +15,8 @@ const adicionaProduto = (nome, imageUrl, price, id, section) => {
             nome: nome,
             imageUrl: imageUrl,
             price: price,
-            id: id,
-            section: section
+            section: section,
+            id: id
         })
     })
 
