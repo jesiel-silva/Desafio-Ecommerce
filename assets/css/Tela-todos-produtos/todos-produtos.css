@@ -24,13 +24,28 @@
     background-color: var(--color-blue);
 }
 
-.edit-del{
+.edit-del{    
     position: absolute;
-    right: 1rem;
+    right: 0;
 }
 
 .edit, .del {
-    font-size: 1.8rem;
-    color: var(--color-blue_claro);
-    padding-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-white);
+    cursor: pointer;
+    background-color: var(--color-blue_claro);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    margin: 0 5px 10px 5px;    
+}
+
+.del:hover {
+    background-color: var(--color-blue_escuro);
+}
+
+.edit:hover {
+    background-color: var(--color-blue_escuro);
 }

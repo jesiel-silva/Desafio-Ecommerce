@@ -24,8 +24,7 @@
   <header class="container produto__media" id="inicio">
     <div class="produto__media-left">
       <div class="logo">
-        <i class='bx bxs-joystick'></i>
-        <div class="logo__nome">Star<span>Geek</span></div>
+        <div class="logo__nome">StarWar<span>Store</span></div>
       </div>
       <div class="buscar">
         <input class="input__buscar" type="text" placeholder="O que deseja encontrar?">
@@ -44,8 +43,12 @@
           <input type="text" placeholder="Nome do produto" data-nome>
           <input type="text" placeholder="URL da imagem" data-imagemURL>
           <input type="text" placeholder="Preço do produto" data-preco>
-          <input type="text" placeholder="Seção" data-section>
-          <!-- <input type="text" placeholder="Id do produto" data-id> -->
+          <select name="section" id="section" data-section>
+            <option value="">-- Seção --</option>
+            <option value="StarWars">StarWars</option>
+            <option value="Consoles">Consoles</option>
+            <option value="Diversos">Diversos</option>
+          </select>
           <input type="submit" class="botao__adicionar--Produto" value="Adicionar produto" data-botao_addProduto></input>
         </fieldset>
       </form>
@@ -54,8 +57,7 @@
     <section class="fale__conosco" id="faleConosco">
       <div class="fale__conosco-conteudo">
         <div class="logo">
-          <i class='bx bxs-joystick'></i>
-          <div class="logo__nome">Star<span>Geek</span></div>
+          <div class="logo__nome">StarWar<span>Store</span></div>
         </div>
 
         <div class="faleConosco__links">

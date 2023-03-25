@@ -1,4 +1,4 @@
-.sticky {
+/* .sticky {
     height: 310vh;
     max-width: 180px;
     min-width: 180px;
@@ -19,10 +19,10 @@
     flex-direction: column;
     position: sticky;
     top: 0;
-}
+} */
 
 
-.menu__esquerdo h2 {
+/* .menu__esquerdo h2 {
     font-size: 2.5rem;
     padding: 2rem 0;
     color: var(--white-secundary);
@@ -59,4 +59,4 @@
     .sticky{
         display: none;
     }
-}
+} */

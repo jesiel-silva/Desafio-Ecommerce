@@ -25,13 +25,14 @@ const adicionaProduto = (nome, imageUrl, price, section, id) => {
         })
 }
 
-const removeProduto = () => {
-    return fetch(`http://localhost:3000/pruduto`, {
+const removeProduto = (id) => {
+    return fetch(`http://localhost:3000/pruduto/${id}`, {
         method: 'DELETE'
     })
 }
 
 export const produtoService = {
     listaCard,
-    adicionaProduto
+    adicionaProduto,
+    removeProduto
 }

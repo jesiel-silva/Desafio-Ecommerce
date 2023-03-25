@@ -1,5 +1,5 @@
 .logo{
-    width: 17rem;
+    width: auto;
 }
 
 .logo{
@@ -14,8 +14,7 @@
 }
 
 .logo i{
-    font-size: 4rem;
-    margin-right: 5px;
+    font-size: 1.6rem;
 }
 
 .logo__nome span{

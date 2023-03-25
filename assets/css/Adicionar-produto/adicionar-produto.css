@@ -6,8 +6,10 @@
 }
 
 .produto__media-left {
+    width: 60rem;
     display: flex;
-    align-self: stretch;
+    align-items: center;
+    justify-content: center;
 }
 
 .main__adicionar--produto {
@@ -44,13 +46,24 @@
     outline: none;
 }
 
-.descricao__produto {
+.formulario fieldset select {
+    border: none;
     border-radius: 5px;
-    height: 8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 20rem;
+    text-align: center;
+    padding: 0.8rem;
+    outline: none;
+}
+
+/* .descricao__produto {
+    
+    
     outline: none;
     padding-left: 10px;
     resize: none;
-}
+} */
 
 .botao__adicionar--Produto {
     border-radius: 5px;
