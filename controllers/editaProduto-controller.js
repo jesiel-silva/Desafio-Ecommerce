@@ -10,23 +10,23 @@ const inputPreco = document.querySelector('[data-editar-Preco]');
 const selectSesao = document.querySelector('[data-editar-Section]');
 
 produtoService.mostraProduto(id)
-    .then(dados => {
-        inputNome.value = dados.nome;
-        inputImageURL.value = dados.imageUrl;
-        inputPreco.value = dados.price;
-        selectSesao.value = dados.section;
-    })
+  .then(dados => {
+    inputNome.value = dados.nome;
+    inputImageURL.value = dados.imageUrl;
+    inputPreco.value = dados.price;
+    selectSesao.value = dados.section;
+  })
 
 const form_addProduto = document.querySelector('[data-form_addProduto]');
 
 form_addProduto.addEventListener('submit', (evento) => {
 
-    evento.preventDefault();
+  evento.preventDefault();
 
-    produtoService.atualizaProduto(id, inputNome.value, inputImageURL.value,
-            inputPreco.value, selectSesao.value)
-        .then(() => {
-            window.location.href = '../telas/todos-produtos.html'
-            alert('Produto editado com sucesso.');
-        })
+  produtoService.atualizaProduto(id, inputNome.value, inputImageURL.value,
+      inputPreco.value, selectSesao.value)
+    .then(() => {
+      window.location.href = '../telas/todos-produtos.html'
+      alert('Produto editado com sucesso.');
+    })
 })

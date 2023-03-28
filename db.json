@@ -34,6 +34,55 @@
       "price": "R$1.825.00",
       "section": "Consoles",
       "id": 5
+    },
+    {
+      "nome": "Controle Razer Star Wars",
+      "imageUrl": "http://digitaldrops.com.br/wp-content/uploads/2022/05/20220510controle-stormtrooper-razer-wireless-controller-for-xbox-01.jpg",
+      "price": "R$935.00",
+      "section": "Diversos",
+      "id": 6
+    },
+    {
+      "nome": "PlayStation 4",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_661783-MLB25566609029_052017-O.jpg",
+      "price": "R$1.648.00",
+      "section": "Consoles",
+      "id": 7
+    },
+    {
+      "nome": "DualShock 4 Star Wars",
+      "imageUrl": "https://www.dashcontroles.com.br/wp-content/uploads/2020/01/CONTROLES-SITE-Recuperado-Recuperado-Recuperado.png",
+      "price": "R$580.00",
+      "section": "Diversos",
+      "id": 8
+    },
+    {
+      "nome": "Xbox One",
+      "imageUrl": "https://cdn.awsli.com.br/1000x1000/241/241991/produto/56463926/3e98630957.jpg\",",
+      "price": "R$1.648.00",
+      "section": "Consoles",
+      "id": 10
+    },
+    {
+      "nome": "PlayStation 5",
+      "imageUrl": "https://i.etsystatic.com/27825707/r/il/7fcbd5/2924429725/il_fullxfull.2924429725_ljhh.jpg",
+      "price": "R$580.00",
+      "section": "Consoles",
+      "id": 11
+    },
+    {
+      "nome": "Controle PS5 Original Sony",
+      "imageUrl": "https://images-americanas.b2w.io/produtos/4630936233/imagens/controle-ps5-original-sony-dualsense-pro-alta-performance-star-wars/4630936321_1_large.jpg",
+      "price": "R$799.00",
+      "section": "Diversos",
+      "id": 12
+    },
+    {
+      "nome": "Jogos PS4 Star Wars",
+      "imageUrl": "https://static.netshoes.com.br/produtos/star-wars-racer-&-commando-pack-(racer-&-republic-commando)-ps4/60/PZG-0016-460/PZG-0016-460_zoom1.jpg?ts=1642429301&ims=544x",
+      "price": "R$180.00",
+      "section": "Diversos",
+      "id": 13
     }
   ]
 }

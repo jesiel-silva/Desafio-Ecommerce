@@ -31,13 +31,17 @@
 
 @media(max-width: 768px) {
     .menu__nav {
-        display: flex;
+        display: flex;        
     }
 }
 
 @media(max-width:425px ),(max-width:375px) {
     .menu__nav {
         display: block;
+        position: absolute;
+        top: 15rem;
+        background-color: transparent;
+        border: none;
     }
 
     .menu__nav ul {
