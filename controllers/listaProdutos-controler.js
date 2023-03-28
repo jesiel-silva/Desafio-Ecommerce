@@ -1,6 +1,4 @@
-import {
-    produtoService
-} from "../services/produtos-services.js";
+import { produtoService } from "../services/produtos-services.js";
 
 /* Cria um novo template */
 const criaCard = (nome, imageUrl, price, section, id) => {
@@ -12,8 +10,8 @@ const criaCard = (nome, imageUrl, price, section, id) => {
     const conteudoCard =
         `<img src="${imageUrl}" alt="Imagem do produto">
     <div class="edit-del">
-      <button class="edit">Edite</button>
-      <button class="del">Delete</button>
+      <a href="../telas/editar-produto.html?id=${id}" class="edit">Edite</a>
+      <a href="" class="del">Delete</a>
     </div>
     <h1 class="card__nome">${nome}</h1>
     <p class="preco">${price}</p>
@@ -26,6 +24,7 @@ const criaCard = (nome, imageUrl, price, section, id) => {
 }
 
 const todosProdutos = document.querySelector('[data-todos_produtos]');
+
 
 todosProdutos.addEventListener('click', (evento) => {
 
@@ -45,6 +44,7 @@ todosProdutos.addEventListener('click', (evento) => {
 produtoService.listaCard()
     .then(data => {
         data.forEach(elemento => {
-            todosProdutos.appendChild(criaCard(elemento.nome, elemento.imageUrl, elemento.price, elemento.section, elemento.id));
+            todosProdutos.appendChild(criaCard(elemento.nome, elemento.imageUrl, 
+                elemento.price, elemento.section, elemento.id));
         })
     })

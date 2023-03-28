@@ -31,16 +31,9 @@
     {
       "nome": "Xbox 360 Slim",
       "imageUrl": "https://cdn.awsli.com.br/1000x1000/138/138431/produto/180761676/50a7e4f215.jpg",
-      "price": "R$1.648.00",
+      "price": "R$1.825.00",
       "section": "Consoles",
       "id": 5
-    },
-    {
-      "nome": "PlayStation 4",
-      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_661783-MLB25566609029_052017-O.jpg",
-      "price": "R$1.648.00",
-      "section": "Consoles",
-      "id": 6
     }
   ]
 }

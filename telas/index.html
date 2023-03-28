@@ -41,26 +41,11 @@
       </div>
     </div>    
 
-    <a href="./login.html" class="btn login">login</a>     
-    
+    <a href="./login.html" class="btn login">login</a>        
     
   </header>  
   
   <main class="container">
-    
-    <!-- <div class="sticky">
-      <aside class="menu__esquerdo">
-        <h2>Categorias</h2>
-        <img src="../assets/image/img2.png" alt="Imagem da logo Star Wars" srcset="">
-        <ul class="menu__lista">
-          <li class="menu__item active"><a href="#inicio">Inicio</a></li>
-          <li class="menu__item active"><a href="#starWars">Star Wars</a></li>
-          <li class="menu__item active"><a href="#consoles">Consoles</a></li>
-          <li class="menu__item active"><a href="#diversos">Diversos</a></li>
-          <li class="menu__item active"><a href="#faleConosco">Fale conosco</a></li>
-        </ul>
-      </aside>
-    </div><!-- Aside Menu -->
 
     <nav class="menu__nav container">
       <ul>
@@ -87,21 +72,21 @@
           <h2 class="titulo">Star Wars</h2>
           <p class="botao__verTudo"><a href="../telas/todos-produtos.html">Ver tudo</a></p>
         </div>
-        <div class="section__card">
+        <div class="section__card" data-starWars>
         </div>
 
         <div class="titulo__produto">
           <h2 class="titulo" id="consoles">Consoles</h2>
           <p class="botao__verTudo"><a href="../telas/todos-produtos.html">Ver tudo</a></p>
         </div>
-        <div class="section__card">
+        <div class="section__card" data-consoles>
         </div>
 
         <div class="titulo__produto">
           <h2 class="titulo" id="diversos">Diversos</h2>
           <p class="botao__verTudo"><a href="../telas/todos-produtos.html">Ver tudo</a></p>
         </div>
-        <div class="section__card">
+        <div class="section__card" data-diversos>
         </div>
 
       </section><!-- conteudos__produtos -->
@@ -144,6 +129,7 @@
     </div>
   </footer><!-- Footer -->
 
+  <script type="module" src="../controllers/mostraProdutoHome-controller.js"></script>
 </body>
 
 </html>
