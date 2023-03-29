@@ -1,6 +1,7 @@
 import { produtoService } from "../services/produtos-services.js";
 
 const form_addProduto = document.querySelector('[data-form_addProduto]');
+const btnVoltar = document.querySelector('[data-btnVoltar]');
 
 form_addProduto.addEventListener('submit', (evento) => {
     

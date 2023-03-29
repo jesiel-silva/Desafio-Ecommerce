@@ -8,6 +8,7 @@ const inputNome = document.querySelector('[data-editar-Nome]');
 const inputImageURL = document.querySelector('[data-eidtar-ImagemURL]');
 const inputPreco = document.querySelector('[data-editar-Preco]');
 const selectSesao = document.querySelector('[data-editar-Section]');
+const btnVoltar = document.querySelector('[data-btnVoltar]');
 
 produtoService.mostraProduto(id)
   .then(dados => {
@@ -23,8 +24,7 @@ form_addProduto.addEventListener('submit', (evento) => {
 
   evento.preventDefault();
 
-  produtoService.atualizaProduto(id, inputNome.value, inputImageURL.value,
-      inputPreco.value, selectSesao.value)
+  produtoService.atualizaProduto(id, inputNome.value, inputImageURL.value, inputPreco.value, selectSesao.value)
     .then(() => {
       window.location.href = '../telas/todos-produtos.html'
       alert('Produto editado com sucesso.');

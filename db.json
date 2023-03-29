@@ -10,7 +10,7 @@
     {
       "nome": "Boba Fett",
       "imageUrl": "https://imgs.extra.com.br/1515163014/4xg.jpg?imwidth=500",
-      "price": "R$100.00",
+      "price": "R$125.00",
       "section": "StarWars",
       "id": 2
     },
@@ -24,7 +24,7 @@
     {
       "nome": "Boba Fett",
       "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61KP-ulmD2L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "price": "R$100.00",
+      "price": "R$110.00",
       "section": "StarWars",
       "id": 4
     },

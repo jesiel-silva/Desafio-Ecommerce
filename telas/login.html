@@ -41,9 +41,11 @@
       <form class="formulario">
         <h3>Iniciar Sessão</h3>
         <fieldset>
-          <input type="email" placeholder="Digite seu email">
-          <input type="password" placeholder="Digite sua senha">
-          <a href="">Entrar</a>
+          <input type="email" placeholder="Digite seu email" data-email>
+          <span class="span__erro" data-spanErroEmail></span>
+          <input type="password" placeholder="Digite sua senha" data-senha>
+          <span class="span__erro" data-spanErroSenha></span>
+          <a href="" data-btnEntrar>Entrar</a>
         </fieldset>
       </form>
     </section>
@@ -83,6 +85,7 @@
     </div>
   </footer><!-- Footer -->
 
+  <script src="../controllers/valida-login.js"></script>
 </body>
 
 </html>
