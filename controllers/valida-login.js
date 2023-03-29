@@ -16,7 +16,9 @@ btnEntrar.addEventListener('click', (evento) => {
     if (inputEmail.value === '') {
         spanErroEmail.textContent = msg;
         spanErroSenha.textContent = msg;
-    } else if (inputSenha.value === '') {
+    } 
+    
+    if (inputSenha.value === '') {
         spanErroSenha.textContent = msg;
     }
 
