@@ -15,5 +15,5 @@ SOFT SKILLS: <br/>
 </p>
 <br/>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/90517279/228699522-1c155600-a77b-40c2-a512-bc2ac0d15c76.png" width="800">
+  <img src="https://user-images.githubusercontent.com/90517279/228710699-5be00189-c355-4c2a-ad4b-fee76795df24.JPG" width="768">
 </div>
