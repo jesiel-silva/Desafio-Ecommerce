@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,12 +15,9 @@
   <link rel="stylesheet" href="./assets/css/Cabecalho/buscar.css">
   <link rel="stylesheet" href="./assets/css/Cabecalho/login.css">
   <link rel="stylesheet" href="./assets/css/Botão-simples/button.css">
-  <link rel="stylesheet" href="./assets/css/Menu-esquerdo/menu-esquerdo.css">
   <link rel="stylesheet" href="./assets/css/Cabecalho/menu-nav.css">
   <link rel="stylesheet" href="./assets/css/Banner/banner.css">
-  <link rel="stylesheet" href="./assets/css/Conteudos-main/conteudos-main.css">
   <link rel="stylesheet" href="./assets/css/Conteudos-main/conteudos-produtos.css">
-  <link rel="stylesheet" href="./assets/css/produtos/produtos.css">
   <link rel="stylesheet" href="./assets/css/Fale-conosco/fale-conosco.css">
   <link rel="stylesheet" href="./assets/css/Footer/footer.css">
 
@@ -39,12 +36,12 @@
         <input class="input__buscar" type="text" placeholder="O que deseja encontrar?">
         <a class="btn__buscar" href=""><i class='bx bx-search'></i></a>
       </div>
-    </div>    
+    </div>
 
-    <a href="./telas/login.html" class="btn login">login</a>        
-    
-  </header>  
-  
+    <a href="./telas/login.html" class="btn login">login</a>
+
+  </header>
+
   <main class="container">
 
     <nav class="menu__nav">
@@ -55,68 +52,68 @@
         <li class="menu__lista"><a href="#diversos">Diversos</a></li>
         <li class="menu__lista"><a href="#faleConosco">Fale conosco</a></li>
       </ul>
-    </nav>    
+    </nav>
 
-      <section class="banner">
-        <div class="banner__texto">
-          <h2>Dezembro Promocional</h2>
-          <p>Produtos selecionados com 33% de desconto</p>
-          <a href="#consoles" class="btn">Ver Consoles</a>
+    <section class="section__banner">
+      <div class="banner__texto">
+        <h2>Dezembro Promocional</h2>
+        <p>Produtos selecionados com 33% de desconto</p>
+        <a href="#consoles" class="btn">Ver Consoles</a>
+      </div>
+    </section><!-- banner -->
+
+    <section class="conteudos__produtos">
+      <div class="titulo__produto" id="starWars">
+        <h2 class="titulo">Star Wars</h2>
+        <p class="botao__verTudo"><a href="">Ver tudo</a></p>
+      </div>
+      <div class="section__card" data-starWars>
+      </div>
+
+      <div class="titulo__produto">
+        <h2 class="titulo" id="consoles">Consoles</h2>
+        <p class="botao__verTudo"><a href="">Ver tudo</a></p>
+      </div>
+      <div class="section__card" data-consoles>
+      </div>
+
+      <div class="titulo__produto">
+        <h2 class="titulo" id="diversos">Diversos</h2>
+        <p class="botao__verTudo"><a href="">Ver tudo</a></p>
+      </div>
+      <div class="section__card" data-diversos>
+      </div>
+
+    </section><!-- conteudos__produtos -->
+
+    <section class="fale__conosco" id="faleConosco">
+
+      <div class="fale__conosco-conteudo">
+        <div class="logo">
+          <div class="logo__nome">StarWar<span>Store</span></div>
         </div>
-      </section><!-- banner -->
 
-      <section class="conteudos__produtos">
-        <div class="titulo__produto" id="starWars">
-          <h2 class="titulo">Star Wars</h2>
-          <p class="botao__verTudo"><a href="">Ver tudo</a></p>
-        </div>
-        <div class="section__card" data-starWars>
-        </div>
-
-        <div class="titulo__produto">
-          <h2 class="titulo" id="consoles">Consoles</h2>
-          <p class="botao__verTudo"><a href="">Ver tudo</a></p>
-        </div>
-        <div class="section__card" data-consoles>
+        <div class="faleConosco__links">
+          <p class="link_texto"><a href="">Quem somos nós</a></p>
+          <p class="link_texto"><a href="">Politica de privacidade</a></p>
+          <p class="link_texto"><a href="">Programa fidelidade</a></p>
+          <p class="link_texto"><a href="">Nossas lojas</a></p>
+          <p class="link_texto"><a href="">Quero ser franqueado</a></p>
+          <p class="link_texto"><a href="">Anuncie aqui</a></p>
         </div>
 
-        <div class="titulo__produto">
-          <h2 class="titulo" id="diversos">Diversos</h2>
-          <p class="botao__verTudo"><a href="">Ver tudo</a></p>
-        </div>
-        <div class="section__card" data-diversos>
-        </div>
+        <form class="area__contato" action="" method="post" autocomplete="off">
+          <fieldset class="fieldset__contanto">
+            <legend class="form__legenda">Fale conosco</legend>
+            <input type="text" name="nome" class="input__nome" placeholder="Nome" data-nome>
+            <textarea class="textArea__Mensagem" name="textArea__Mensagem" id="mensagem"
+              placeholder="Escreva sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem">
+          </fieldset>
+        </form>
+      </div>
+    </section><!-- Fale conosco -->
 
-      </section><!-- conteudos__produtos -->
-
-      <section class="fale__conosco" id="faleConosco">
-
-        <div class="fale__conosco-conteudo">
-          <div class="logo">
-            <div class="logo__nome">StarWar<span>Store</span></div>
-          </div>
-
-          <div class="faleConosco__links">
-            <p class="link_texto"><a href="">Quem somos nós</a></p>
-            <p class="link_texto"><a href="">Politica de privacidade</a></p>
-            <p class="link_texto"><a href="">Programa fidelidade</a></p>
-            <p class="link_texto"><a href="">Nossas lojas</a></p>
-            <p class="link_texto"><a href="">Quero ser franqueado</a></p>
-            <p class="link_texto"><a href="">Anuncie aqui</a></p>
-          </div>
-
-          <form class="area__contato" action="" method="post" autocomplete="off">
-            <fieldset class="fieldset__contanto">
-              <legend class="form__legenda">Fale conosco</legend>
-              <input type="text" name="nome" class="input__nome" placeholder="Nome" data-nome>
-              <textarea class="textArea__Mensagem" name="textArea__Mensagem" id="mensagem"
-                placeholder="Escreva sua mensagem"></textarea>
-              <input type="submit" value="Enviar mensagem">
-            </fieldset>
-          </form>
-        </div>
-      </section><!-- Fale conosco -->
-   
   </main>
 
   <footer class="desenvolvedor">

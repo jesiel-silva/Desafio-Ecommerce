@@ -23,7 +23,7 @@ body{
     font-size: 62.5%;
     height: 100vh;
     font-family: 'Raleway', sans-serif;
-    background-color: var(--color-blue2);
+    background-color: var(--color-blue_claro);
     scroll-behavior: smooth;
 }
 
