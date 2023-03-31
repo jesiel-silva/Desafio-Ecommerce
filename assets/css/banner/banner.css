@@ -1,12 +1,7 @@
-<<<<<<< HEAD
+
 #section__banner{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("/assets/img/image1.jpg");       
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("/assets/img/bg1.png");       
     background-size:cover;
-=======
-.section__banner{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 25, 0.8)), url("../assets/img/img1.jpg");
-    background-size: cover;
->>>>>>> de3292ce6d2c1ea1692f273e8d1cdcd4d154e88f
     background-position: center; 
     background-repeat: no-repeat;
     display: flex;    

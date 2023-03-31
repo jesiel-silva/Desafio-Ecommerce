@@ -1,9 +1,3 @@
-<<<<<<< HEAD:assets/css/Todos-produtos/todos-produtos.css
-=======
-.todos__produtos {
-    height: 100vh;
-}
->>>>>>> de3292ce6d2c1ea1692f273e8d1cdcd4d154e88f:assets/css/Tela-todos-produtos/todos-produtos.css
 .produtos {
     display: flex;
     flex-direction: column;
@@ -13,18 +7,14 @@
     margin-bottom: 1rem;
 }
 
-.botao__adicionarProduto a {
+/* .botao__adicionarProduto  {
     color: var(--color-white);
     background-color: var(--color-blue_escuro);
     border-radius: 5px;
     font-size: 1.6rem;
     padding: 16px;
     transition: all 0.2s;
-}
-
-.botao__adicionarProduto a:hover {
-    background-color: var(--color-blue);
-}
+} */
 
 .edit-del{    
     position: absolute;
