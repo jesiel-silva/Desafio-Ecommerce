@@ -4,6 +4,7 @@ aprimorar o entedimento e conceitos estudados no curso de javascript.
 Nesse projeto de e-commerce utilizei consulta a API usando metodo fetch e aplicando o CRUD e organização do código por responsabilidades, e por fim acessando a simulação de banco de dados com Json-server.
 </br></br>
 <p>
+  Para testar esse projeto faça o clone para sua maquina do repositório, e instale o json-server para que carregue os produtos criados para simular o banco de dados.
   Nesse link encontra o passo a passo de como instalar e integrar o json-serve em seu projeto:
   https://www.npmjs.com/package/json-server
 </p>
@@ -15,5 +16,5 @@ SOFT SKILLS: <br/>
 </p>
 <br/>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/90517279/228710699-5be00189-c355-4c2a-ad4b-fee76795df24.JPG" width="768">
+  <img src="https://user-images.githubusercontent.com/90517279/229224858-37a24840-eca7-4a0b-8c3d-3e00c2dad2eb.png" width="800">
 </div>
