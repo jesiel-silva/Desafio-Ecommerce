@@ -1,11 +1,11 @@
 
 #section__banner{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("https://colorindonuvens.com/wp-content/uploads/2017/12/FunkoPop-StarWars-VIII-UltimoJedi-ColorindoNuvens.png");       
-    background-size:cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/1590614175274-FI9OISTVM0M7DAGY0553/image-asset.png");      
+    background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
     display: flex;    
-    height: 40rem;
+    height: 50rem;
 }
 
 .banner__texto {    
