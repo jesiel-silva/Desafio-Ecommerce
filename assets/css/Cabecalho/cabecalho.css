@@ -14,8 +14,8 @@
 
 @media(max-width:768px) {
     .cabecalho {
-        flex-direction: column;
-        height: 18%;
+        margin-bottom: 4rem;
+        justify-content: center;
     }
 
     .header__left {
@@ -27,9 +27,9 @@
 
 @media(max-width:425px ),(max-width:375px) {
     .cabecalho {
-        display: block;
         height: 100vh;
         background-color: var(--color-black2);
+        flex-direction: column;
     }
 
     .header__left {
@@ -37,6 +37,11 @@
         height: 35%;
         margin: 0;
         padding: 0;
-        justify-content: center;
+    }
+
+    .login {
+        width:auto;
+        position: absolute;
+        top: 55%;
     }
 }

@@ -10,3 +10,11 @@
         margin-top: 2rem;
     }
 }
+
+@media(max-width:425px ),(max-width:375px) {
+    .cabecalho {
+        height: auto;
+        background-color: transparent;
+        margin-top: 2rem;
+    }
+}

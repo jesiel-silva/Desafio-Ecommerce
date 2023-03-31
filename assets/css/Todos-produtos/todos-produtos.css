@@ -7,15 +7,6 @@
     margin-bottom: 1rem;
 }
 
-/* .botao__adicionarProduto  {
-    color: var(--color-white);
-    background-color: var(--color-blue_escuro);
-    border-radius: 5px;
-    font-size: 1.6rem;
-    padding: 16px;
-    transition: all 0.2s;
-} */
-
 .edit-del{    
     position: absolute;
     right: 0;
@@ -41,4 +32,14 @@
 
 .edit:hover {
     background-color: var(--color-blue_escuro);
+}
+
+@media(max-width:425px ),(max-width:375px) {
+    .cabecalho {
+        height: auto;
+        background-color: transparent;
+        margin-top: 2rem;
+    }
+
+    
 }

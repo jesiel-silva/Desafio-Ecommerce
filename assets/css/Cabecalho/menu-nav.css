@@ -37,16 +37,15 @@
 
 @media(max-width:425px ),(max-width:375px) {
     .menu__nav {
-        display: block;
         position: absolute;
-        top: 15rem;
-        background-color: transparent;
+        top: 26%;
+        height: 30%;
         border: none;
+        background-color: transparent;
     }
 
     .menu__nav ul {
         flex-direction: column;
-        padding: 2rem 0 2rem 0;
         text-transform: uppercase;
     }
 
