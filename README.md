@@ -4,6 +4,7 @@ aprimorar o entedimento e conceitos estudados no curso de javascript.
 Nesse projeto de e-commerce utilizei consulta a API usando metodo fetch e aplicando o CRUD e organização do código por responsabilidades, e por fim acessando a simulação de banco de dados com Json-server.
 </br></br>
 <p>
+  Para testar esse projeto faça o clone para sua maquina do repositório, e instale o json-server para que carregue os produtos criados para simular o banco de dados.
   Nesse link encontra o passo a passo de como instalar e integrar o json-serve em seu projeto:
   https://www.npmjs.com/package/json-server
 </p>
