@@ -12,7 +12,12 @@
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .form__produto--conteudo {
+=======
+.main__adicionar--produto {
+    height: 100vh;
+>>>>>>> de3292ce6d2c1ea1692f273e8d1cdcd4d154e88f
     display: flex;
     justify-content: center;
     align-items: center;

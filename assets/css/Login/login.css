@@ -1,3 +1,13 @@
+<<<<<<< HEAD:assets/css/Login/login.css
+=======
+.main__login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+>>>>>>> de3292ce6d2c1ea1692f273e8d1cdcd4d154e88f:assets/css/Cabecalho/login.css
 
 .form__login{
     display: flex;
