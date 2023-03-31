@@ -1,7 +1,3 @@
-.main__adicionar--produto {
-    height: 100vh;   
-}
-
 .produto__media {
     display: flex;
     justify-content: space-between;
@@ -17,7 +13,7 @@
 }
 
 .main__adicionar--produto {
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
