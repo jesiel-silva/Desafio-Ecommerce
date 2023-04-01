@@ -1,6 +1,7 @@
 /* Conexão com o servidor */
 const listaCard = () => {
-  return fetch(`http://localhost:3000/pruduto`)
+  return fetch(`https://my-json-server.typicode.com/jesiel-silva/backJson-server/pruduto`)
+  /* return fetch(`http://localhost:3000/pruduto`) */
     .then(resposta => {
       return resposta.json();
     })
@@ -8,7 +9,7 @@ const listaCard = () => {
 
 /* Adiciona produto */
 const adicionaProduto = (nome, imageUrl, price, section, id) => {
-  return fetch(`http://localhost:3000/pruduto`, {
+  return fetch(`https://my-json-server.typicode.com/jesiel-silva/backJson-server/pruduto`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -29,21 +30,22 @@ const adicionaProduto = (nome, imageUrl, price, section, id) => {
 
 /* Remove produto */
 const removeProduto = (id) => {
-  return fetch(`http://localhost:3000/pruduto/${id}`, {
+  return fetch(`https://my-json-server.typicode.com/jesiel-silva/backJson-server/pruduto/${id}`, {
     method: 'DELETE'
   })
 }
 
 /* mostra produto */
 const mostraProduto = (id) => {
-  return fetch(`http://localhost:3000/pruduto/${id}`)
+  return fetch(`https://my-json-server.typicode.com/jesiel-silva/backJson-server/pruduto/${id}`)
     .then(resposta => {
       return resposta.json();
     })
 }
 
+/* Atualiza produto */
 const atualizaProduto = (id, nome, imageUrl, price, section) => {
-  return fetch(`http://localhost:3000/pruduto/${id}`, {
+  return fetch(`https://my-json-server.typicode.com/jesiel-silva/backJson-server/pruduto/${id}`, {
       method: 'PUT',
       headers: {
         'content-type': 'application/json'
@@ -61,6 +63,7 @@ const atualizaProduto = (id, nome, imageUrl, price, section) => {
     })
 }
 
+/* exportando os serviços */
 export const produtoService = {
   listaCard,
   adicionaProduto,

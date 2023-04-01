@@ -24,7 +24,7 @@
     {
       "nome": "Boba Fett",
       "imageUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61KP-ulmD2L.__AC_SX300_SY300_QL70_ML2_.jpg",
-      "price": "R$150.00",
+      "price": "R$140.00",
       "section": "StarWars",
       "id": 4
     },
@@ -80,7 +80,7 @@
     {
       "nome": "Jogos PS4 Star Wars",
       "imageUrl": "https://static.netshoes.com.br/produtos/star-wars-racer-&-commando-pack-(racer-&-republic-commando)-ps4/60/PZG-0016-460/PZG-0016-460_zoom1.jpg?ts=1642429301&ims=544x",
-      "price": "R$180.00",
+      "price": "R$190.00",
       "section": "Diversos",
       "id": 12
     }
