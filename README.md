@@ -7,6 +7,8 @@ Nesse projeto de e-commerce utilizei consulta a API usando metodo fetch e aplica
   Para testar esse projeto faça o clone para sua maquina do repositório, e instale o json-server para que carregue os produtos criados para simular o banco de dados.
   Nesse link encontra o passo a passo de como instalar e integrar o json-serve em seu projeto:
   https://www.npmjs.com/package/json-server
+  
+  Deploy para acessar: https://desafio-ecommerce-six.vercel.app/
 </p>
 <p>
 SOFT SKILLS: <br/>
