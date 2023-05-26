@@ -1,5 +1,5 @@
 <h1>Desafio-Ecommerce</h1>
-Esse projeto foi colocado como desfio pela <strong>Alura + Oracle ONE</strong>, o objetivo desse desafio é praticar tudo que foi passado no curso de front-end (HTML semântico, boas praticas, estrutura e css), 
+Projeto foi colocado como desfio pela <strong>Alura + Oracle ONE</strong>, o objetivo desse desafio é praticar tudo que foi passado no curso de front-end (HTML semântico, boas praticas, estrutura e css), 
 aprimorar o entedimento e conceitos estudados no curso de javascript.
 Nesse projeto de e-commerce utilizei consulta a API usando metodo fetch e aplicando o CRUD e organização do código por responsabilidades, e por fim acessando a simulação de banco de dados com Json-server.
 </br></br>
