@@ -15,6 +15,7 @@ SOFT SKILLS: <br/>
 <img src="https://user-images.githubusercontent.com/90517279/228700908-a153fc51-38c1-4168-89b6-66b06805aa05.png" width="50"/>
 <img src="https://user-images.githubusercontent.com/90517279/228700992-741acf4f-bc1c-4e4f-9a75-b92a0f2a8ec7.png" width="50"/>
 <img src="https://user-images.githubusercontent.com/90517279/228701032-6ea9fdd1-8062-47f8-976f-9eea7ce1d914.png" width="50"/>
+ <img src="https://github.com/jesiel-silva/Sobre-Mim/assets/90517279/c5ac7a04-0faf-4feb-bf46-61b68b019707" width="100" height="50">
 </p>
 <br/>
 <div align="center">
